@@ -18,7 +18,7 @@ cd tisrv
 
 # preparing virtual env
 python -m venv venv
-source venv/bin/activeate
+source venv/bin/activate
 
 # install dependencies
 pip install -r requirements.txt
