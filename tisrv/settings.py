@@ -24,7 +24,7 @@ class PgSettings(BaseSettings):
 
     class Config:
         env_prefix = 'pg_'
-        env_file = '.env'
+        env_file = 'tisrv.conf'
 
 
 @lru_cache()
@@ -40,7 +40,7 @@ class ApiSettings(BaseSettings):
 
     class Config:
         env_prefix = 'api_'
-        env_file = '.env'
+        env_file = 'tisrv.conf'
 
 
 @lru_cache()
@@ -66,7 +66,7 @@ class _GeoSettings(BaseSettings):
 
     class Config:
         env_prefix = 'geo_'
-        env_file = '.env'
+        env_file = 'tisrv.conf'
 
 
 class GeoSettings:
